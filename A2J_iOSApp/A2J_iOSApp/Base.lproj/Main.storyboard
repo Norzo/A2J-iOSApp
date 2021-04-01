@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uHm-te-BMr">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--A2J Pro Bono: Student Accommodation-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="A2J_iOSApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,31 +18,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="c5m-tn-g4b">
-                                <rect key="frame" x="5" y="70" width="365" height="457"/>
+                                <rect key="frame" x="5" y="114" width="365" height="413"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TF-BR-VGX">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="108.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="97.5"/>
                                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button1">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk4-YH-EuR">
-                                        <rect key="frame" x="0.0" y="116.5" width="365" height="108"/>
+                                        <rect key="frame" x="0.0" y="105.5" width="365" height="97"/>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button2">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kH8-vg-yAb">
-                                        <rect key="frame" x="0.0" y="232.5" width="365" height="108.5"/>
+                                        <rect key="frame" x="0.0" y="210.5" width="365" height="97.5"/>
                                         <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button3">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehx-Ec-gdc">
-                                        <rect key="frame" x="0.0" y="349" width="365" height="108"/>
+                                        <rect key="frame" x="0.0" y="316" width="365" height="97"/>
                                         <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button4">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,11 +89,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="A2J Pro Bono: Student Accommodation" id="Nds-rQ-lUm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="980" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Moving In-->
         <scene sceneID="5pD-7J-86y">
             <objects>
                 <viewController id="J8S-FO-PZ8" sceneMemberID="viewController">
@@ -102,42 +104,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sjO-75-NXc">
-                                <rect key="frame" x="5" y="25" width="365" height="637"/>
+                                <rect key="frame" x="5" y="69" width="365" height="593"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7a-1Z-zHr">
-                                        <rect key="frame" x="150.5" y="0.0" width="64" height="63.5"/>
+                                        <rect key="frame" x="150.5" y="0.0" width="64" height="59"/>
                                         <state key="normal" title="Checklist"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkP-wN-JlT">
-                                        <rect key="frame" x="111.5" y="71.5" width="142" height="64"/>
+                                        <rect key="frame" x="111.5" y="67" width="142" height="58.5"/>
                                         <state key="normal" title="Your Responsibilities"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3x-MI-wXo">
-                                        <rect key="frame" x="91.5" y="143.5" width="182" height="63.5"/>
+                                        <rect key="frame" x="91.5" y="133.5" width="182" height="59"/>
                                         <state key="normal" title="Landlord's Responsibilities"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNC-tl-bQ6">
-                                        <rect key="frame" x="111.5" y="215" width="142" height="63.5"/>
+                                        <rect key="frame" x="111.5" y="200.5" width="142" height="58.5"/>
                                         <state key="normal" title="Payment Information"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8li-4s-yew">
-                                        <rect key="frame" x="115" y="286.5" width="135" height="64"/>
+                                        <rect key="frame" x="115" y="267" width="135" height="59"/>
                                         <state key="normal" title="Deposit Information"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V07-P8-Myp">
-                                        <rect key="frame" x="109.5" y="358.5" width="146" height="63.5"/>
+                                        <rect key="frame" x="109.5" y="334" width="146" height="58.5"/>
                                         <state key="normal" title="Inventory Information"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTm-Hd-lny">
-                                        <rect key="frame" x="156.5" y="430" width="52" height="63.5"/>
+                                        <rect key="frame" x="156.5" y="400.5" width="52" height="59"/>
                                         <state key="normal" title="Repairs"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpp-qj-YB0">
-                                        <rect key="frame" x="167.5" y="501.5" width="30" height="64"/>
+                                        <rect key="frame" x="167.5" y="467.5" width="30" height="58.5"/>
                                         <state key="normal" title="Tips"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5e-FN-vym">
-                                        <rect key="frame" x="126.5" y="573.5" width="112" height="63.5"/>
+                                        <rect key="frame" x="126.5" y="534" width="112" height="59"/>
                                         <state key="normal" title="Help and Advice"/>
                                     </button>
                                 </subviews>
@@ -152,10 +154,47 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gUS-jX-Fk5"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Moving In" id="2BI-Z1-V4h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oxd-tG-CLj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662" y="26"/>
+            <point key="canvasLocation" x="2540" y="25.637181409295355"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="r3Z-i2-SVP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uHm-te-BMr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LMB-pf-cPa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VNh-YF-cg8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7cd-fL-83K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="684.10794602698661"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mZ1-pe-RBC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gAh-Ob-xpc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V20-eP-TdA">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="J8S-FO-PZ8" kind="relationship" relationship="rootViewController" id="aoF-dh-Grv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQy-KW-hDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1600.8" y="25.637181409295355"/>
         </scene>
     </scenes>
 </document>
